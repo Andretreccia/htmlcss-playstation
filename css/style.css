@@ -3,7 +3,19 @@ body{
      font-family: Arial, sans-serif;
 }
 
+
+/* Utility */
+.rel{
+    position: relative;
+}
+.p_bottom{
+    position: absolute;
+    bottom: 20px;
+}
+/* Utility */
+
 /* Header */
+
 
 
 /* Main */
@@ -12,4 +24,5 @@ body{
         height: 456px;
         background-image: url(../img/jumbo-bg.png);
         background-size: cover;
+        background-position: center;
     }
