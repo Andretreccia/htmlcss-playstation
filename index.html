@@ -14,6 +14,8 @@
             rel="stylesheet"
             integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
             crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <title>Document</title>
     </head>
@@ -22,14 +24,17 @@
         <header id="site_hedaer">
             <!-- Banda nera con logo  -->
             <div class="logo_head">
-                <div class="container-fluid bg-black d-flex justify-content-end">
-                    <img style="width: 50px; height: 25px;" src="./img/sony_logo.svg" alt="">
+                <div class="container-fluid bg-black d-flex
+                    justify-content-end">
+                    <img style="width: 50px; height: 25px;"
+                        src="./img/sony_logo.svg" alt="">
                 </div>
             </div>
-                <!-- navbar header -->
+            <!-- navbar header -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#"><img
+                            src="./img/play_logo.svg" alt=""></a>
                     <!-- Bottone che appare in xs -->
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse"
@@ -39,7 +44,8 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- Lin k visibili in lg -->
-                    <div class="collapse navbar-collapse"
+                    <div class="collapse navbar-collapse
+                        justify-content-between"
                         id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
@@ -73,7 +79,21 @@
                                 </a>
                             </li>
                         </ul>
-                       
+                        <!-- Parte destra della navbar estesa -->
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#">
+                                    My PlayStation
+                                </a>
+                            </li>
+                            <li class="lav-item">
+                                <a type="button" class="btn btn-dark
+                                    rounded-pill px-3">Accedi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn" href="#"><i class="fas fa-search"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
