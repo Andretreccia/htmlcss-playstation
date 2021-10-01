@@ -23,7 +23,7 @@ body{
 
 /* Main */
     /* Hero game section */
-    .hero_game{
+    .bkg{
         height: 456px;
         background-image: url(../img/jumbo-bg.png);
         background-size: cover;
