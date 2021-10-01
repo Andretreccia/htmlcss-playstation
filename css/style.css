@@ -12,6 +12,9 @@ body{
     position: absolute;
     bottom: 20px;
 }
+.rounded_1{
+    border-radius: 1rem;
+}
 /* Utility */
 
 /* Header */
