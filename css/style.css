@@ -21,6 +21,11 @@ body{
 .b_dark_gray{
     background-color: #1F1F1F ;
 }
+.bg_lighgray{
+    background: #BEBCBB;
+    height: 400px;
+
+}
 /* Header */
 
 
@@ -40,3 +45,5 @@ body{
         background-size: cover;
    
     }
+    
+    
