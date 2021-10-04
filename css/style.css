@@ -16,12 +16,21 @@ h6{
 .rel{
     position: relative;
 }
+.absolute{
+    position: absolute;
+}
 .p_bottom{
     position: absolute;
     bottom: 20px;
 }
 .rounded_1{
     border-radius: 1rem;
+}
+.list_none{
+    list-style: none;
+}
+.small{
+    font-size: 8px;
 }
 /* Utility */
 /* background */
@@ -72,4 +81,12 @@ nav li{
     margin: 1rem 0;
     font-size: 16px;
     font-weight: 400;
+}
+/*footer  */
+#site_footer li{
+    margin: 1rem;
+}
+#site_footer li>a{
+    text-decoration: none;
+    color: white;
 }
