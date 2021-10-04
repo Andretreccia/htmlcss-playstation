@@ -95,11 +95,37 @@ nav li{
         background-size: cover;
    
     }
+    /* game gallery */
 .giochi h6{
     margin: 1rem 0;
     font-size: 16px;
     font-weight: 400;
 }
+.active_gallery{
+    padding: 3px;
+    border: 2px solid #0070D1;
+    border-radius: 20px;
+}
+.pan{
+    transition: 0.5s;
+}
+.pan:hover{  
+    cursor: pointer;
+    translate: 0 -10px;
+    
+}
+/* accessori ps5 */
+img.opacity{
+    filter: opacity(0.5);
+    transition: 0.5s;
+}
+img.opacity:hover{
+    cursor: pointer;
+    filter: opacity(1);
+}
+.selected{
+    border-bottom: 2px solid #0070D1;
+    
 /*footer  */
 #site_footer li{
     margin: 1rem;
