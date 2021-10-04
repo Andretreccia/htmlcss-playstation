@@ -172,14 +172,11 @@ img.opacity:hover{
     color: #0070D1;
     text-decoration: none;
     background: rgba(255, 255, 255, 0.699);
-    padding: 0.5rem;
-    outline: 5px solid rgba(255, 255, 255, 0.699);
-   
-    
+    padding: 1rem;  
 }
 .button_tran:hover{
-    color: #0070D1 ;
-    border: 2px solid #0070D1;
+    color: #0070D1;
+    outline: 1px white;
     transition: 0.5s;
 }
 .button_white{
