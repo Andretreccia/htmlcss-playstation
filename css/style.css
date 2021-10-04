@@ -33,13 +33,13 @@ h6{
     font-size: 8px;
 }
 /* Utility */
+
 /* background */
 .b_dark_gray{
     background-color: #1F1F1F ;
 }
 .bg_lighgray{
-    background: #BEBCBB;
-    
+    background: #BEBCBB;   
 }
 .bg_darkblue{
     background: #161C3B;
@@ -62,15 +62,33 @@ nav li{
     margin: 2px;
 }
 
+
+/* HOVER NAVBAR */
+#site_header .nav_hover:hover{
+    color: #0070D1 !important;
+}
+.nav_hover:hover .visibility{
+    display: none;
+}
+.visibility_none{
+    display: none;
+}
+.nav_hover:hover .visibility_none{
+    display: inline;
+}
+/* HOVER NAVBAR  */
+
+
 /* Main */
+
     /* Hero game section */
-    .bkg{
+    .hero_background_start{
         height: 456px;
         background-image: url(../img/jumbo-bg.png);
         background-size: cover;
         background-position: center;
     }
-    .bkg_itt{
+    .hero_background_center{
         height: 500px;
         background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
         background-position: center;
