@@ -23,8 +23,11 @@ body{
 }
 .bg_lighgray{
     background: #BEBCBB;
-    height: 400px;
-
+    height: 300px;
+}
+.bg_darkblue{
+    background: #161C3B;
+    height: 300px;
 }
 /* Header */
 
